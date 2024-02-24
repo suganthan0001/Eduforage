@@ -10,7 +10,7 @@ from nltk.stem import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open(r'/home/suganthan/Desktop/sushma-ml/intents.json').read())
+intents = json.loads(open(r'/home/suganthan/Desktop/Eduforage/server/intents.json').read())
 
 words = []
 classes = []
