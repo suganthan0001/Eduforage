@@ -6,9 +6,11 @@ import chaticon from "../assets/chatbot.png"
 const Chatbot = () => {
   const [showModal, setShowModal] = useState(false);
 
+  const [messages, setMessages] = useState([]);
+
   const toggleModal = () => {
     setShowModal(!showModal);
-  };
+  }; 
 
   return (
     <div>
@@ -23,7 +25,7 @@ const Chatbot = () => {
           <Modal.Title className='modal-title'>AI CHATBOT</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Conversation />
+          <Conversation setMessages={setMessages} messages={messages} />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={toggleModal}>

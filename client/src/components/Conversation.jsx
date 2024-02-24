@@ -5,9 +5,8 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import "../styles/Conversation.css"
 import sendIcon from "../assets/send-icon.png";
 
-function Conversation() {
+function Conversation({setMessages,messages}) {
 
-    const [messages, setMessages] = useState([]);
     const [inputField, setInputField] = useState("");
 
     function handleInput(e) {
@@ -23,13 +22,15 @@ function Conversation() {
                 "by": "sent"
             }
         ]);
-    
+        
         try {
             // Then send the message
             await sendMessage(inputField);
         } catch (error) {
             console.error(error);
         }
+
+        setInputField("");
 
     }
     
