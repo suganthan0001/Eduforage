@@ -4,8 +4,10 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
-CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}})
+# Disable CORS
+app.config['CORS_ENABLED'] = False
 
 
 @app.route('/chat', methods=['POST'])
