@@ -4,10 +4,8 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
-
-# Disable CORS
 app.config['CORS_ENABLED'] = False
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 
 @app.route('/chat', methods=['POST'])
@@ -25,6 +23,4 @@ def get_chatbot_response(message):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
 
