@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+      "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["My pleasure", "You're Welcome"],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": ["What is Simplilearn?"],
+      "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform."],
+      "context": [""]
+    },
+    {
+      "tag": "bootcamp_eligibility",
+      "patterns": ["I have never done programming in my life. Can I take this bootcamp?"],
+      "responses": ["Yes, this is the perfect bootcamp for anyone who has never done coding and wants to build a career in the IT/Data Analytics industry or just wants to perform better in your current job or business using data."],
+      "context": ["programming", "career building", "data analytics"]
+    },
+    {
+      "tag": "trust_codebasics",
+      "patterns": ["Why should I trust Codebasics?"],
+      "responses": ["Till now 9000 + learners have benefitted from the quality of our courses. You can check the review section and also we have attached their LinkedIn profiles so that you can connect with them and ask directly."],
+      "context": ["trust", "course quality", "learner reviews"]
+    },
+    {
+      "tag": "bootcamp_prerequisites",
+      "patterns": ["Is there any prerequisite for taking this bootcamp ?"],
+      "responses": ["Our bootcamp is specifically designed for beginners with no prior experience in this field. The only prerequisite is that you need to have a functional laptop with at least 4GB ram, an internet connection, and a thrill to learn data analysis."],
+      "context": ["beginners", "laptop requirements", "data analysis"]
+    },
+    {
+      "tag": "bootcamp_datasets",
+      "patterns": ["What datasets are used in this bootcamp? Is it some toy datasets or something that mimics a real-world business problem?"],
+      "responses": ["The datasets used in this bootcamp are crafted from scratch to mimic the real business world by consolidating our years of experience. The datasets not just contain more than a million rows but also cover multiple facets of the business."],
+      "context": ["datasets", "real-world", "business problems"]
+    },
+    {
+      "tag": "bootcamp_trial",
+      "patterns": ["I’m not sure if this bootcamp is good enough for me to invest some money. What can I do?"],
+      "responses": ["We got you covered. Go ahead and watch our youtube videos. If you like them and want to learn further, then this bootcamp is the perfect extension."],
+      "context": ["trial", "youtube videos", "learning"]
+    },
+    {
+      "tag": "instructor_support",
+      "patterns": ["How can I contact the instructors for any doubts/support?"],
+      "responses": ["We have created every lecture with a motive to explain everything in an easy-to-understand manner. For any questions that Google cannot answer or if you hit a wall - we got you covered! You can join our active discord community, which is a dedicated platform to discuss & clear your doubts with fellow learners & mentors."],
+      "context": ["instructor support", "lecture explanation", "discord community"]
+    },
+    {
+      "tag": "bootcamp_refund",
+      "patterns": ["What if I don’t like this bootcamp?"],
+      "responses": ["As promised we will give you a 100% refund based on the guidelines (Please refer to our course refund policy before enrolling)."],
+      "context": ["refund policy", "course satisfaction"]
+    },
+    {
+      "tag": "bootcamp_lifetime_access",
+      "patterns": ["Does this bootcamp have lifetime access?"],
+      "responses": ["Yes"],
+      "context": ["lifetime access"]
+    },
+    {
+      "tag": "bootcamp_duration",
+      "patterns": ["What is the duration of this bootcamp? How long will it last?"],
+      "responses": ["You can complete all courses in 3 months if you dedicate 2-3 hours per day."],
+      "context": ["duration", "study schedule"]
+    },
+    {
+      "tag": "bootcamp_self_paced",
+      "patterns": ["Can I attend this bootcamp while working full time?"],
+      "responses": ["Yes. This bootcamp is self-paced. You can learn on your own schedule."],
+      "context": ["self-paced learning", "full-time job"]
+    },
+    {
+      "tag": "bootcamp_skills",
+      "patterns": ["What kind of skills can I expect to learn in this bootcamp?"],
+      "responses": ["You can expect to learn tech skills like Python, Excel, SQL, and Power BI along with other skills like basic project management, stakeholder management, communication skills, and Business knowledge for domains like Finance, Supply chain, Sales, and Marketing."],
+      "context": ["skills", "tech skills", "business knowledge"]
+    },
+    {
+      "tag": "job_assistance",
+      "patterns": ["Do you provide any job assistance?"],
+      "responses": ["Yes, We help you with resume and interview preparation along with that we help you in building online credibility, and based on requirements we refer candidates to potential recruiters."],
+      "context": ["job assistance", "resume preparation", "interview preparation"]
+    },
+    {
+      "tag": "certification_coverage",
+      "patterns": ["Is this bootcamp enough for me in Microsoft Power BI and Excel certifications?"],
+      "responses": ["Yes, this bootcamp will certainly help because we cover the majority of the skills measured in these exams. However, please be informed that this course focuses on Job ready aspects and not on all aspects required to clear the exams. In addition to this course, you might need to visit the official learning material designed by Microsoft which is available for free on their website."],
+      "context": ["certification coverage", "Microsoft certifications"]
+    },
+    {
+      "tag": "emi_option",
+      "patterns": ["Do we have an EMI option?"],
+      "responses": ["No"],
+      "context": ["EMI option"]
+    },
+    {
+      "tag": "virtual_internship",
+      "patterns": ["Do you provide any virtual internship?"],
+      "responses": ["Yes"],
+      "context": ["virtual internship"]
+    },
+    {
+      "tag": "job_guarantee",
+      "patterns": ["Will this bootcamp guarantee me a job?"],
+      "responses": ["The courses included in this bootcamp are done by 9000+ learners and many of them have secured a job which gives us ample confidence that you will be able to get a job. However, we want to be honest and do not want to make any impractical promises! Our guarantee is to prepare you for the job market by teaching the most relevant skills, knowledge & timeless principles good enough to fetch the job."],
+      "context": ["job guarantee", "job market preparation"]
+    },
+    {
+      "tag": "excel_course_eligibility",
+      "patterns": ["I have zero knowledge of Excel and belong to a non-technical background. Can I take this course?"],
+      "responses": ["Yes, this is the perfect course for anyone who has never worked on excel and wants to build a career in the IT/Data Analytics industry or just wants to perform better in their current job or business using data."],
+      "context": ["Excel course eligibility", "non-technical background"]
+    },
+    {
+      "tag": "course_prerequisites",
+      "patterns": ["What are the things I need to know before starting this course?"],
+      "responses": ["This course is for absolute beginners; hence, you do not need any specific skills other than basic familiarity with computers."],
+      "context": ["course prerequisites", "absolute beginners"]
+    },
+    {
+      "tag": "course_difference",
+      "patterns": ["What is different in this course compared to hundreds of courses on the internet and free tutorials on YouTube?"],
+      "responses": ["Most of the courses available on the internet teach you how to build x & y without any business context and do not prepare you for real business world problem-solving. This course is rather an experience in which you will learn Excel by solving real-life use cases in an imaginary company called AtliQ Hardware. The tutorials are very easy to understand and also have a lot of fun elements into them so that you don’t get bored ??"],
+      "context": ["course differentiation", "real-world problem-solving"]
+    },
+    {
+      "tag": "resume_addition",
+      "patterns": ["Can I add this course to my resume?", "Can I add this course to my resume? If Yes, how?"],
+      "responses": ["Absolutely, you can mention the AtliQ Hardware project experience in your resume with the relevant skills that you will learn from this course."],
+      "context": ["resume", "course addition", "skill mention"]
+    },
+    {
+      "tag": "course_evaluation",
+      "patterns": ["I’m not sure if this course is good enough for me to invest some money. What can I do?", "I’m not sure if this course is good enough for me to invest some money. What can I do?"],
+      "responses": ["Don’t worry. Many videos in this course are free so watch them to get an idea of the quality of teaching. Dhaval Patel (the course instructor) runs a popular data science YouTube channel called Codebasics. On that, you can watch his videos and read comments to get an idea of his teaching style."],
+      "context": ["course evaluation", "free videos", "teaching style"]
+    },
+    {
+      "tag": "dataset_used",
+      "patterns": ["What dataset is used in this course? Is it some toy dataset or something that mimics a real-world problem?", "What dataset is used in this course? Is it some Toy dataset or something that mimics a real-world business problem?", "What business concepts and domains are covered in this course?"],
+      "responses": ["For initial basics, we have used a toy dataset of movies but for advanced concepts, we used a dataset that is crafted to mimic the real business world by consolidating our years of experience and the FMCG industry. That dataset contains more than 1 million records.", "The dataset used in this course is crafted from scratch to mimic the real business world by consolidating our years of experience. The dataset not just contains more than a million rows but also covers multiple facets of business data such as sales, finance, targets, forecasts, products, etc."],
+      "context": ["dataset", "real-world", "business problem"]
+    },
+    {
+      "tag": "lifetime_access",
+      "patterns": ["Once purchased, is this course available for lifetime access?"],
+      "responses": ["Yes"],
+      "context": ["lifetime access"]
+    },
+    {
+      "tag": "doubt_support",
+      "patterns": ["How can I get help if I have a doubt and need support?"],
+      "responses": ["We have an active discord server where you can post your question and most of the time you will get an answer in a reasonable time frame."],
+      "context": ["doubt", "support", "discord server"]
+    },
+    {
+      "tag": "non_technical_background",
+      "patterns": ["I have never done programming and belong to a non-technical background. Can I take this course?", "I don’t have a laptop, can I take this course?"],
+      "responses": ["Yes, this is the perfect course for anyone who has never done coding and wants to build a career in the IT/Data Analytics industry or just wants to perform better in their current job or business using data.", "We recommend learning by doing and therefore you need to have a laptop or a PC (at least 4 GB ram)."],
+      "context": ["non-technical", "programming", "laptop requirement"]
+    },
+    {
+      "tag": "certification_prep",
+      "patterns": ["Will the course help me in PL - 300 Microsoft exam preparation?", "Will the course guarantee me a job?"],
+      "responses": ["Yes, this course will certainly help because we cover the majority of the skills measured in the PL - 300 exam in this course. However, please be informed that this course focuses on Job ready aspects and not on all aspects required to clear PL - 300 exam. In addition to this course, you might need to visit the official learning material designed by Microsoft which is available for free -> https://docs.microsoft.com/en-us/certifications/exams/pl-300?tab=tab-learning-paths", "We created a much lighter version of this course on YouTube available for free (click this link) and many people gave us feedback that they were able to fetch jobs (see testimonials). Now this paid course is at least 5x better than the YouTube course which gives us ample confidence that you will be able to get a job. However, we want to be honest and do not want to make any impractical promises! Our guarantee is to prepare you for the job market by teaching the most relevant skills, knowledge & timeless principles good enough to fetch the job."],
+      "context": ["certification preparation", "job guarantee"]
+    },
+    {
+      "tag": "course_upgrade",
+      "patterns": ["Will the course be upgraded when there are new features in Power BI?"],
+      "responses": ["Yes, the course will be upgraded periodically based on the new features in Power BI, and learners who have already bought this course will have free access to the upgrades."],
+      "context": ["course upgrade", "Power BI features"]
+    },
+    {
+      "tag": "tableau_user",
+      "patterns": ["I use Tableau, can I take this course?", "Power BI or Tableau which one is better?"],
+      "responses": ["Yes, you will still benefit from the concepts outside the tools that are discussed in this course such as business context, problem solving, project management tools, etc.", "This is a contextual question. If you are talking about a pure visualization tool Tableau is slightly better. Data connectors, modeling and transformation features are available in both. However, factually speaking Power BI is cheaper and offers tighter integration with the Microsoft environment. Since most companies use excel & Microsoft tools they start with Power BI or move towards Power BI for seamless integration with other Microsoft tools (called as Power platform). This makes the job openings grow at a much higher rate on Power BI and Power Platform. Also, Power BI has been leading the Gartner’s magic quadrant in BI for the last few years as the industry leader."],
+      "context": ["Tableau", "Power BI", "visualization tools"]
+    },
+    {
+      "tag": "course_differentiation",
+      "patterns": ["What is different in this course from thousands of other Power BI courses available online?", "I already know basic Power BI, what benefit do I get by taking this course?"],
+      "responses": ["Most of the courses available on the internet teach you how to build x & y without any business context and do not prepare you for the real business world. This course is rather an experience in which you will learn how to use Power BI & other non-technical skills to solve a real-life business problem using analytics. Here you focus on solving a business problem and in that process learn how Power BI can be used as a tool. This is how you will do the work when you start working as a data analyst/ Business analyst/ Power BI developer in the industry. This course will prepare you for not just fetching the job but, shine in it & grow further.", "This course is taught through a true end-to-end project in a Consumer goods company involving all the steps mimicking the real business environment, so you will learn how to execute end-to-end projects Power BI projects successfully along with the business fundamentals. You will learn a lot of extra things such as Project management tools, effective communication techniques & organizational nuances."],
+      "context": ["course differentiation", "Power BI", "business context"]
+    }
+  ]
+}
