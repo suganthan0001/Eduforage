@@ -36,7 +36,7 @@ function Conversation({setMessages,messages}) {
     
     async function sendMessage(inputMessage) {
         try {
-            const res = await fetch("https://main--curious-semifreddo-a98bfd.netlify.app/chat", {
+            const res = await fetch("http://localhost:5000/chat", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
